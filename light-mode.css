@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@800&display=swap");
+:root {
+  --var-body-bg:	#018abd;
+  --var-body-bg2: #97cbdc;
+  --var-body-fc: #97cbdc;
+  --var-body2-fc:#202020;
+  --var-body3-fc:#202020;
+  --var-body4-fc: #6e6e6f;
+  --var-body-fc5: #dde8f0;
+}
+
+[dark] {
+  --var-body-bg: #524f4f;
+  --var-body-bg2: #a9a9a9;
+  --var-body-fc: #c1c4c4;
+  --var-body2-fc:#c0c0c0;
+  --var-body3-fc:#c0c0c0;
+  --var-body4-fc: #524f4f;
+  --var-body-fc5: #c0c0c0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: var(--var-body-bg);
+}
+
+.header {
+  margin-top: -250px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -35px;
+  margin-top: 250px;
+}
+
+.links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 40px;
+  margin-top: -45px;
+  font-family: "Montserrat";
+}
+
+.links a {
+  margin-left: 80px;
+  color: var(--var-body-fc);
+}
+
+.box {
+  margin-left: -100px;
+  margin-top: -10px;
+  width: 19px;
+  height: 19px;
+}
+
+.box p {
+  color: var(--var-body-fc);
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -175px;
+  margin-top: -11px;
+}
+
+.box {
+  font-family: "Montserrat";
+  color: #808080;
+  float: right;
+  margin-right: 50px;
+  font-size: 20px;
+}
+
+.contact a {
+  color: var(--var-body-fc);
+}
+
+.hello {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 35px;
+  color: var(--var-body2-fc);
+  margin-left: 120px;
+  margin-top: 120px;
+}
+
+.name {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 25px;
+  margin-left: 150px;
+  margin-top: 45px;
+  color: var(--var-body2-fc);
+}
+
+.who {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--var-body2-fc);
+  margin-left: 490px;
+  margin-top: 20px;
+}
+
+.about_me {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 700px;
+  color: var(--var-body-fc5);
+}
+
+.personal_inf {
+  color: var(--var-body3-fc);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Montserrat";
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: solid;
+  border-radius: 20px;
+  border-color: var(--var-body-fc);
+  background-color: var(--var-body-bg);
+  width: 850px;
+  padding: 20px 30px 30px 30px;
+  margin-left: 350px;
+  margin-top: 30px;
+}
+
+.skill {
+  font-family: Montserrat;
+  color: var(--var-body-fc5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 720px;
+  margin-top: 100px;
+}
+
+.skills {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--var-body4-fc);
+  margin-bottom: 100px;
+}
+
+.skills h3 {
+  margin-top: 45px;
+  margin-left: 550px;
+  border-radius: 8px;
+  width: 300px;
+  background-color: var(--var-body-bg2);
+  padding: 10px 10px 10px 130px;
+}
+
+.tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tool {
+  width: 150px;
+  height: 150px;
+}
+
+.tw img {
+  width: 200px;
+  height: 150px;
+}
